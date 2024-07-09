@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   padding: 0;
@@ -26,6 +30,7 @@ a {
 
 .navbar-list {
   flex: 70%;
+  margin: 1rem;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
