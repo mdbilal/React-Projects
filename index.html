@@ -12,3 +12,14 @@
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+<script>
+  const dateFormat = (date) => {
+    const formatedDate = new Date(date);
+    const options = { 
+        day: '2-digit', 
+        month: 'short', 
+        year: 'numeric' 
+    };
+    return formatedDate.toLocaleDateString('en-GB', options);
+  }
+</script>
